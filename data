@@ -1,0 +1,13 @@
+%git clone https://github.com/foocoin/foocoin.git
+cloning in to foocoin
+%mv foocoin sencoin
+%cd sencoin
+%rm -rf .git
+%git init
+initializing git repository in ~/sencoin
+%git add -A *
+%git commit -m "first commit"
+%git remote add origin https://github.com/litetadores46/sencoin
+%git push -u origin master
+username for git@github.com: litetadores46
+password for sencoin@github.com: Lihati46
